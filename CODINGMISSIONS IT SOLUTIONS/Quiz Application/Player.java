@@ -41,8 +41,4 @@ public class Player {
         return questionAnswered > 0 ? ((double) correctAnswers / questionAnswered * 100) : 0.0;
     }
 
-    public void setTotalQuestions(int totalQuestions) {
-        this.totalQuestions = totalQuestions;
-    }
-
 }

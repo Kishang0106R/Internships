@@ -395,8 +395,6 @@ public class LibraryManager {
             int bookID = scanner.nextInt();
             scanner.nextLine();
 
-            boolean bookFound = false;
-
             for(Book book : books){
                 if(book.getID() == bookID && book.isIssued()){
                     double fine = calculatedFine(bookID);

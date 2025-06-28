@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>YouTube Video Downloader</title>
+    </head>
+    <body>
+        <center>
+            <h1>YouTube Video Downloader</h1>
+            <form action="/download" method="post">
+                <input type="text" id="youtube_url" name="youtube_url" style="padding: 15px;width: 80%;border-radius: 10px" placeholder="Enter YouTube Video URL" required><br><br>
+                
+                <input type="radio" id="audio" name="action" value="audio" required>
+                <label for="audio">Download Audio Only</label><br><br><br>
+                
+                <input type="radio" id="video" name="action" value="video">
+                <label for="video">Download Video Only</label><br><br><br>
+                
+                <input type="submit" value="Start Download" style="padding: 15px;border-radius: 10px;">
+            </form>
+        </center>
+    </body>
+</html>
